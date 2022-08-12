@@ -15,33 +15,3 @@ En el caso anterior transformábamos números binarios en decimales. En este cas
 3. Dividí el número por 2 y redondealo para abajo
 4. Continúa el proceso hasta que el número sea igual a 0
 5. Devuelve el string
-
-### Primer alternativa
-
-```js
-const decimalToBinary = (num) => {
-    let binary = '';
-    while(num) {
-        binary = num % 2 + binary;
-        num = Math.floor(num / 2);
-    }
-    return binary
-}
-```
-
-### Segunda alternativa
-
-En este caso, se propone una **solución recursiva**.
-
-```js
-const decimalToBinaryRec = (num) => {
-    if (num) {
-        return decimalToBinaryRec(Math.floor(num / 2)) + num % 2
-    }
-    return '';
-}
-```
-
-## Código
-
-Pueden encontrar las soluciones recién mencionadas en el siguiente [link](https://repl.it/KDLz/1).
