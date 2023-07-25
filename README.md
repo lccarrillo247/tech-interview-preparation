@@ -4,13 +4,12 @@
 
 <h1 align='center'>Entrevistas Técnicas</h1>
 
-<div align='center' style="display:grid ;justify-content: space-evenly; grid-template-columns: 200px 800px ; padding:10px">
-    <div style="margin-left:50px">
+<div style="margin-left:50px">
         <p>Te preparamos para ingresar al mundo laboral brindándote las herramientas necesarias para conseguir un trabajo.</p>
         <p>Estos ejercicios te van a ayudar a prepararte para futuras entrevistas técnicas, aprender o repasar conceptos y cómo encararlos. Son ejercicios de entrevistas reales.</p>
-    </div>
-    <div align='left' style= "border-right: 1px solid currentColor;">
-        <h3>Ejercicios en Vivo</h3>
+</div>
+<div align='left'>
+    <h3>Ejercicios en Vivo</h3>
 
 -   [01-FindNeedle](/Ejercicios/01-FindNeedle/)
 -   [02-MaxValue + chatGPT](/Ejercicios/03-MaxValue/)
@@ -24,8 +23,8 @@
 -   [10-SumArray + MultidimensionalSumArray + chatGPT](/Ejercicios/02-SumArray/)
 -   [11-MinStack](Ejercicios/05-MinStack/)
 -   [12-FindWordStartingWith](/Ejercicios/08-FindWordStartingWith/)
--   [Challenge JWT (Json Web Token)]
--   [Challenge Pasarela de pago (Mercado Pago)]
+-   [Challenge JWT (Json Web Token)](/Ejercicios/Challenges/JWT.md)
+-   [Challenge Pasarela de pago (Mercado Pago)](/Ejercicios/Challenges/Mercado%20Pago.md)
 
 ### Extras
 -   [BinaryToDecimal](Ejercicios/09-BinaryToDecimal/)
@@ -33,12 +32,7 @@
 -   [LongestIncreasingSubSequence](Ejercicios/14-LongestIncreasingSubSequence/)
 
 ### Calendario TIP's
-<img src="./images/Calendario%20TIP's.png" width='500'>
-    </div>
-
-<hr>
-<hr>
-<hr>
+<img src="./images/calendario.png" width='500'>
 
 <!-- ### [Dejanos tu Feedback:](https://airtable.com/shr99TOaHwiVDO8gk)
 
